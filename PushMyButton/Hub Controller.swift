@@ -21,10 +21,11 @@ class Hub_Controller: UIViewController
 //        self.present(vc, animated: true, completion: nil)
         
         //***//
-        storyboardIDs = ["Timer_Scene", "Switch_Scene", "Button_Scene", "Terraces_Scene"]
+        storyboardIDs = ["Timer_Scene", "Switch_Scene", "Button_Scene", "Stepper_Scene", "Terraces_Scene", "Slider_Scene"]
         let randomChoice = Int(arc4random_uniform(UInt32(storyboardIDs.count)))
         //print(storyboardIDs[randomChoice])
-        moveOn(choice: storyboardIDs[randomChoice])
+        //moveOn(choice: storyboardIDs[randomChoice])
+        moveOn(choice: "Slider_Scene")
     }
 
     override func viewDidLoad()
