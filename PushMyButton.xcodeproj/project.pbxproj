@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		490AC26C2461939A00A68DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AC26B2461939A00A68DEF /* AppDelegate.swift */; };
-		490AC26E2461939A00A68DEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AC26D2461939A00A68DEF /* SceneDelegate.swift */; };
-		490AC2702461939A00A68DEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AC26F2461939A00A68DEF /* ViewController.swift */; };
+		490AC2702461939A00A68DEF /* Timer Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AC26F2461939A00A68DEF /* Timer Controller.swift */; };
 		490AC2732461939A00A68DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490AC2712461939A00A68DEF /* Main.storyboard */; };
 		490AC2752461939C00A68DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490AC2742461939C00A68DEF /* Assets.xcassets */; };
 		490AC2782461939C00A68DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490AC2762461939C00A68DEF /* LaunchScreen.storyboard */; };
+		490AC280246197A300A68DEF /* dune.png in Resources */ = {isa = PBXBuildFile; fileRef = 490AC27F246197A300A68DEF /* dune.png */; };
+		49895FD9246AAF2600163AC3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FD8246AAF2600163AC3 /* Button.swift */; };
+		49895FDC246AB3B600163AC3 /* Template Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FDB246AB3B600163AC3 /* Template Controller.swift */; };
+		49895FE0246AB6D700163AC3 /* Terraces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FDF246AB6D700163AC3 /* Terraces.swift */; };
+		49E916FA24643EB000EC6EE3 /* Switch Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E916F924643EB000EC6EE3 /* Switch Controller.swift */; };
+		49E916FE24643F2B00EC6EE3 /* Button Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E916FD24643F2B00EC6EE3 /* Button Controller.swift */; };
+		49E91701246442B400EC6EE3 /* Hub Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E91700246442B400EC6EE3 /* Hub Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		490AC2682461939A00A68DEF /* PushMyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushMyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490AC26B2461939A00A68DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		490AC26D2461939A00A68DEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		490AC26F2461939A00A68DEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		490AC26F2461939A00A68DEF /* Timer Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer Controller.swift"; sourceTree = "<group>"; };
 		490AC2722461939A00A68DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		490AC2742461939C00A68DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490AC2772461939C00A68DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490AC2792461939C00A68DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490AC27F246197A300A68DEF /* dune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dune.png; sourceTree = "<group>"; };
+		49895FD8246AAF2600163AC3 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		49895FDB246AB3B600163AC3 /* Template Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Template Controller.swift"; sourceTree = "<group>"; };
+		49895FDF246AB6D700163AC3 /* Terraces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terraces.swift; sourceTree = "<group>"; };
+		49E916F924643EB000EC6EE3 /* Switch Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Switch Controller.swift"; sourceTree = "<group>"; };
+		49E916FD24643F2B00EC6EE3 /* Button Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Controller.swift"; sourceTree = "<group>"; };
+		49E91700246442B400EC6EE3 /* Hub Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hub Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		490AC26A2461939A00A68DEF /* PushMyButton */ = {
 			isa = PBXGroup;
 			children = (
+				49895FE1246ABCB700163AC3 /* Exotic */,
+				49895FDA246AB38600163AC3 /* Templates */,
+				49895FD7246AAF1200163AC3 /* Extensions */,
+				490AC27F246197A300A68DEF /* dune.png */,
 				490AC26B2461939A00A68DEF /* AppDelegate.swift */,
-				490AC26D2461939A00A68DEF /* SceneDelegate.swift */,
-				490AC26F2461939A00A68DEF /* ViewController.swift */,
 				490AC2712461939A00A68DEF /* Main.storyboard */,
-				490AC2742461939C00A68DEF /* Assets.xcassets */,
 				490AC2762461939C00A68DEF /* LaunchScreen.storyboard */,
 				490AC2792461939C00A68DEF /* Info.plist */,
+				490AC2742461939C00A68DEF /* Assets.xcassets */,
+				490AC26F2461939A00A68DEF /* Timer Controller.swift */,
+				49E916F924643EB000EC6EE3 /* Switch Controller.swift */,
+				49E916FD24643F2B00EC6EE3 /* Button Controller.swift */,
+				49E91700246442B400EC6EE3 /* Hub Controller.swift */,
 			);
 			path = PushMyButton;
+			sourceTree = "<group>";
+		};
+		49895FD7246AAF1200163AC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49895FD8246AAF2600163AC3 /* Button.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49895FDA246AB38600163AC3 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				49895FDB246AB3B600163AC3 /* Template Controller.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		49895FE1246ABCB700163AC3 /* Exotic */ = {
+			isa = PBXGroup;
+			children = (
+				49895FDF246AB6D700163AC3 /* Terraces.swift */,
+			);
+			path = Exotic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +170,7 @@
 				490AC2782461939C00A68DEF /* LaunchScreen.storyboard in Resources */,
 				490AC2752461939C00A68DEF /* Assets.xcassets in Resources */,
 				490AC2732461939A00A68DEF /* Main.storyboard in Resources */,
+				490AC280246197A300A68DEF /* dune.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490AC2702461939A00A68DEF /* ViewController.swift in Sources */,
+				49E916FA24643EB000EC6EE3 /* Switch Controller.swift in Sources */,
+				49895FD9246AAF2600163AC3 /* Button.swift in Sources */,
+				490AC2702461939A00A68DEF /* Timer Controller.swift in Sources */,
+				49895FDC246AB3B600163AC3 /* Template Controller.swift in Sources */,
+				49E91701246442B400EC6EE3 /* Hub Controller.swift in Sources */,
+				49895FE0246AB6D700163AC3 /* Terraces.swift in Sources */,
 				490AC26C2461939A00A68DEF /* AppDelegate.swift in Sources */,
-				490AC26E2461939A00A68DEF /* SceneDelegate.swift in Sources */,
+				49E916FE24643F2B00EC6EE3 /* Button Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NES4E5L6E8;
 				INFOPLIST_FILE = PushMyButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +343,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miguelsicart.net.PushMyButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NES4E5L6E8;
 				INFOPLIST_FILE = PushMyButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miguelsicart.net.PushMyButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
