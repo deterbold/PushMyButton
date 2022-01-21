@@ -18,6 +18,10 @@
 		49895FE0246AB6D700163AC3 /* Terraces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FDF246AB6D700163AC3 /* Terraces.swift */; };
 		49895FE3246BD69700163AC3 /* Stepper Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FE2246BD69700163AC3 /* Stepper Controller.swift */; };
 		49895FE5246BDC8F00163AC3 /* Slider Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FE4246BDC8F00163AC3 /* Slider Controller.swift */; };
+		49895FE7246C2D4300163AC3 /* Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49895FE6246C2D4300163AC3 /* Stacking.swift */; };
+		49D398B0247293AE00E21802 /* Slingback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D398AF247293AE00E21802 /* Slingback.swift */; };
+		49D398B2247293EB00E21802 /* UIDeviceE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D398B1247293EB00E21802 /* UIDeviceE.swift */; };
+		49D398B42472D3CD00E21802 /* Waiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D398B32472D3CD00E21802 /* Waiting.swift */; };
 		49E916FA24643EB000EC6EE3 /* Switch Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E916F924643EB000EC6EE3 /* Switch Controller.swift */; };
 		49E916FE24643F2B00EC6EE3 /* Button Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E916FD24643F2B00EC6EE3 /* Button Controller.swift */; };
 		49E91701246442B400EC6EE3 /* Hub Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E91700246442B400EC6EE3 /* Hub Controller.swift */; };
@@ -37,6 +41,10 @@
 		49895FDF246AB6D700163AC3 /* Terraces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terraces.swift; sourceTree = "<group>"; };
 		49895FE2246BD69700163AC3 /* Stepper Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stepper Controller.swift"; sourceTree = "<group>"; };
 		49895FE4246BDC8F00163AC3 /* Slider Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slider Controller.swift"; sourceTree = "<group>"; };
+		49895FE6246C2D4300163AC3 /* Stacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacking.swift; sourceTree = "<group>"; };
+		49D398AF247293AE00E21802 /* Slingback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slingback.swift; sourceTree = "<group>"; };
+		49D398B1247293EB00E21802 /* UIDeviceE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceE.swift; sourceTree = "<group>"; };
+		49D398B32472D3CD00E21802 /* Waiting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiting.swift; sourceTree = "<group>"; };
 		49E916F924643EB000EC6EE3 /* Switch Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Switch Controller.swift"; sourceTree = "<group>"; };
 		49E916FD24643F2B00EC6EE3 /* Button Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Controller.swift"; sourceTree = "<group>"; };
 		49E91700246442B400EC6EE3 /* Hub Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hub Controller.swift"; sourceTree = "<group>"; };
@@ -72,21 +80,21 @@
 		490AC26A2461939A00A68DEF /* PushMyButton */ = {
 			isa = PBXGroup;
 			children = (
+				490AC26B2461939A00A68DEF /* AppDelegate.swift */,
+				49E91700246442B400EC6EE3 /* Hub Controller.swift */,
+				49E916F924643EB000EC6EE3 /* Switch Controller.swift */,
+				49895FE2246BD69700163AC3 /* Stepper Controller.swift */,
+				49E916FD24643F2B00EC6EE3 /* Button Controller.swift */,
+				49895FE4246BDC8F00163AC3 /* Slider Controller.swift */,
 				49895FE1246ABCB700163AC3 /* Exotic */,
 				49895FDA246AB38600163AC3 /* Templates */,
 				49895FD7246AAF1200163AC3 /* Extensions */,
 				490AC27F246197A300A68DEF /* dune.png */,
-				490AC26B2461939A00A68DEF /* AppDelegate.swift */,
 				490AC2712461939A00A68DEF /* Main.storyboard */,
 				490AC2762461939C00A68DEF /* LaunchScreen.storyboard */,
 				490AC2792461939C00A68DEF /* Info.plist */,
 				490AC2742461939C00A68DEF /* Assets.xcassets */,
-				49E91700246442B400EC6EE3 /* Hub Controller.swift */,
 				490AC26F2461939A00A68DEF /* Timer Controller.swift */,
-				49E916F924643EB000EC6EE3 /* Switch Controller.swift */,
-				49E916FD24643F2B00EC6EE3 /* Button Controller.swift */,
-				49895FE2246BD69700163AC3 /* Stepper Controller.swift */,
-				49895FE4246BDC8F00163AC3 /* Slider Controller.swift */,
 			);
 			path = PushMyButton;
 			sourceTree = "<group>";
@@ -95,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				49895FD8246AAF2600163AC3 /* Button.swift */,
+				49D398B1247293EB00E21802 /* UIDeviceE.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -111,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				49895FDF246AB6D700163AC3 /* Terraces.swift */,
+				49895FE6246C2D4300163AC3 /* Stacking.swift */,
+				49D398AF247293AE00E21802 /* Slingback.swift */,
+				49D398B32472D3CD00E21802 /* Waiting.swift */,
 			);
 			path = Exotic;
 			sourceTree = "<group>";
@@ -188,13 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E916FA24643EB000EC6EE3 /* Switch Controller.swift in Sources */,
+				49D398B2247293EB00E21802 /* UIDeviceE.swift in Sources */,
 				49895FD9246AAF2600163AC3 /* Button.swift in Sources */,
 				490AC2702461939A00A68DEF /* Timer Controller.swift in Sources */,
 				49895FDC246AB3B600163AC3 /* Template Controller.swift in Sources */,
+				49D398B0247293AE00E21802 /* Slingback.swift in Sources */,
 				49895FE3246BD69700163AC3 /* Stepper Controller.swift in Sources */,
+				49895FE7246C2D4300163AC3 /* Stacking.swift in Sources */,
 				49E91701246442B400EC6EE3 /* Hub Controller.swift in Sources */,
 				49895FE0246AB6D700163AC3 /* Terraces.swift in Sources */,
 				49895FE5246BDC8F00163AC3 /* Slider Controller.swift in Sources */,
+				49D398B42472D3CD00E21802 /* Waiting.swift in Sources */,
 				490AC26C2461939A00A68DEF /* AppDelegate.swift in Sources */,
 				49E916FE24643F2B00EC6EE3 /* Button Controller.swift in Sources */,
 			);

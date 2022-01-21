@@ -31,7 +31,8 @@ class Slider_Controller: Template_Controller
         satisfactionSlider.addTarget(self, action: #selector(sliderValueChange), for: .valueChanged)
         
         sliderLabel = UILabel(frame: positionFrame)
-        sliderLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        sliderLabel.font = UIFont(name: "Avenir-BlackOblique", size: 30)
+        sliderLabel.adjustsFontSizeToFitWidth = true
         sliderLabel.textColor = .blue
         sliderLabel.center = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY - 100)
         sliderLabel.numberOfLines = 0
@@ -64,7 +65,7 @@ class Slider_Controller: Template_Controller
            }
            else if satisfactionSlider.value == 100
            {
-               sliderLabel.text = "I am satisfied now"
+               sliderLabel.text = "Done"
             self.moveOn()
            }
        }

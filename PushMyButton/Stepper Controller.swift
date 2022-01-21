@@ -42,7 +42,7 @@ class Stepper_Controller: Template_Controller
         view.addSubview(satisfactionStepper)
         
         stepperLabel = UILabel(frame: positionFrame)
-        stepperLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        stepperLabel.font = UIFont(name: "Avenir-BlackOblique", size: 30)
         stepperLabel.textColor = .blue
         stepperLabel.center = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY - 100)
         stepperLabel.numberOfLines = 0
@@ -87,10 +87,10 @@ class Stepper_Controller: Template_Controller
         default:
             break
         }
-        if satisfactionStepper.value == 2
-        {
-            stepperAnimation()
-        }
+//        if satisfactionStepper.value == 2
+//        {
+//            stepperAnimation()
+//        }
     }
     
     func stepperAnimation()

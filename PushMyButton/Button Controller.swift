@@ -27,9 +27,9 @@ class Button_Controller: UIViewController
         
         //MARK: - THE BUTTON
         button = UIButton(type: .custom)
-        button.frame = CGRect(x: self.view.frame.midX - 25, y: self.view.frame.midY - 25, width: 50, height: 50)
-        button.layer.cornerRadius = 0.5 * button.bounds.size.width
-        button.clipsToBounds = true
+        button.frame = CGRect(x: self.view.frame.midX - 50, y: self.view.frame.midY - 50, width: 100, height: 100)
+        button.layer.cornerRadius = button.frame.size.width/2
+            
         button.backgroundColor = .red
         button.addTarget(self, action: #selector(moveOn), for: .touchUpInside)
         view.addSubview(button)
@@ -63,7 +63,7 @@ class Button_Controller: UIViewController
     
     @objc func moveOn()
     {
-        button.shake()
+        button.flash()
         
        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) //https://www.hackingwithswift.com/articles/117/the-ultimate-guide-to-timer
        {

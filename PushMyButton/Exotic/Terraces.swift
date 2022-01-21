@@ -126,6 +126,7 @@ class Terraces: Template_Controller, UICollisionBehaviorDelegate
         
         //Cargo Label
         cargo = UILabel(frame: CGRect(x: self.view.frame.midX - 80, y: 0, width: 150, height: 50))
+        cargo.font = UIFont(name: "Avenir-BlackOblique", size: 30)
         cargo.backgroundColor = .orange
         cargo.textColor = .black
         cargo.textAlignment = .center

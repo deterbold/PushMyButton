@@ -20,6 +20,7 @@ class Timer_Controller: UIViewController, UNUserNotificationCenterDelegate
 //
 //        //MARK: Information Label
 //        informationLabel = UILabel(frame: CGRect(x: self.view.frame.midX - 100, y: self.view.frame.midY - 50, width: 200, height: 100))
+//         informationLabel.font = UIFont(name: "Avenir-BlackOblique", size: 30)
 //        informationLabel.adjustsFontSizeToFitWidth = true
 //        informationLabel.backgroundColor = .clear
 //        informationLabel.textColor = .black
